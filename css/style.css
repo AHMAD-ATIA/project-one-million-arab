@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css?family=Cairo');
+
+body
+{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Cairo', sans-serif;
+    direction: rtl;
+
+}
+
+#header
+{
+    width: 100%;
+    min-height: 46px;
+    background: #fff;
+    box-shadow: 0 0 35px #e6e6e6;
+    position: fixed;
+    top: -8px;
+    display: block;
+    margin: 0;
+}
+
+.container{
+	max-width: 1170px;
+	margin: 0 auto;
+  height: 100%;
+
+
+}
+
+.float-right{
+	float: right;
+}
+
+.float-left{
+	float: left;
+
+}
+#logo img{
+    margin-top: 30px;
+
+}
+#navbar ul{
+    padding: 0;
+}
+
+#navbar ul li{
+    list-style: none;
+    float: right;
+
+}
+
+#navbar ul li a{
+    display: inline-block;
+    padding: 17px 15px;
+	  color: #333;
+    text-decoration: none;
+    border-bottom: 2px solid #fff;
+    text-align: right;
+    font-size: 16px;
+
+
+}
+
+.menu{
+    display: block;
+    position: relative;
+    float: right;
+    direction: rtl;
+
+}
+.dropdown{
+    width: 250px;
+    position: absolute;
+    background-color: #fff;
+    z-index: 1;
+    display: none;
+
+}
+
+
+
+.dropdown li a{
+
+    padding: 5px 15px;
+	  border-bottom: 2px solid #fff;
+    float: right;
+    cursor: pointer;
+    width: 220px;
+
+
+}
+
+
+#navbar ul li a:hover {
+  border-bottom: 2px solid #02b3e4;
+	color: #00aaf6;
+}
+
+.menu:hover .dropdown{
+    display: block;
+}
+
+
+/* End header */
+
+
+/* Start main */
+
+#main{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    direction: ltr;
+}
+
+.banner{
+  width: 100%;
+	height: 500px;
+  background-image: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)), url(https://ae.udacity.com/one-million-arab-coders/udacity1ed.2076c354169ffbc667eb.jpg);
+  background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+  text-align: center;
+
+
+}
+
+ #main .banner h1{
+  color: #fff;
+	font-size: 42px;
+  padding-top: 165px;
+
+}
+
+.banner h3{
+	color: #fff;
+  font-size: 18px;
+
+}
+.banner .join-us{
+	display: inline-block;
+	color: #fff;
+	font-size: 25px;
+	background: #11b7e6;
+	border: 1px solid #122b40;
+	text-decoration: none;
+	padding: 5px 30px;
+	border-radius: 4px;
+  transition: all 0.3s;
+
+}
+about-section{
+    font-size: 35px;
+	  color: #333;
+    text-align: center;
+    margin-top: 120px;
+
+}
+
+
+ .underline, .underline2{
+    font-size: 2.0em;
+}
+.underline::after{
+	content: "";
+  display: block;
+  width: 100px;
+  height: 2px;
+	background-color:#11b7e6;
+	margin: 4px auto 40px;
+}
+.underline2::after{
+  content: "";
+  width: 100px;
+  height: 2px;
+  background-color: #11b7e6;
+  margin-top: 15px;
+  display: block;
+  margin-left: 425px;
+
+}
+.underline3::after{
+	content: "";
+  display: block;
+  width: 100px;
+  height: 2px;
+	background-color: #11b7e6;
+  margin-left: 425px;
+}
+.about-section p{
+	max-width: 720px;
+	margin: 30px auto;
+}
+
+
+.section{
+    padding-top: 600px;
+    text-align: center;
+}
+.section .info-list ul{
+	list-style-type: circle;
+}
+.section .info-list ul li{
+  direction: rtl;
+  text-align: right;
+}
+.section .info-list ul li a{
+  text-decoration: none;
+  color: #11b7e6;
+  cursor: pointer;
+}
+
+.discover-header{
+    padding-top: 0;
+    text-align: center;
+}
+.discover-content{
+  padding-top: 0;
+  width: 100%;
+  height: 650px;
+  background-image: linear-gradient(rgba(0,0,0,.10),rgba(0,0,0,.10)), url(https://ae.udacity.com/one-million-arab-coders/software-sec-bg.a6e1a4fcb82f73d68962.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: right;
+  color: #fff;
+
+}
+.discover-content p{
+  font-size: 16px;
+}
+
+
+
+.section-webdeveloper, .video-webdeveloper{
+  width: 45%;
+  margin: 0;
+    float: left;
+
+}
+
+.section-webdeveloper{
+    float: right;
+    margin-left: 30px;
+    text-align: right;
+}
+
+.video-webdeveloper{
+    margin-left: 0;
+
+}
+ span{
+    color: #11b7e6;
+}
+
+.discover-content2{
+    padding-top: 60px;
+    width: 100%;
+    height: 450px;
+}
+.video-webdeveloper2{
+    float: right;
+    margin-left: 30px;
+    text-align: right;;
+}
+.arab-join{
+    text-align: center;
+    height: 400px;
+    width: 100%;
+    background-color: #f5f5f5;
+    padding-top: 40px;
+}
+
+.pupils, .teachers{
+    width: 45%;
+    margin: 0;
+    display: inline;
+    float: right;
+}
+..BG{
+    height: 500px;
+    background-image: linear-gradient(rgba(0,0,0,.10),rgba(0,0,0,.10)), url(https://ae.udacity.com/one-million-arab-coders/software-sec-bg.a6e1a4fcb82f73d68962.jpg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    width: 45%;
+    
+}
+.pupils h1, .teachers h1{
+    display: inline;
+}
+
